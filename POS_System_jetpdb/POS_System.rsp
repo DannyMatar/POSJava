@@ -1,0 +1,39 @@
+
+-x64
+-PIC
+-jetcomponent=11.00
+-jetedition=Evaluation
+-vcode=8040
+-sys=C
+-nosmart
+-zimer=0
+-stack=900000
+-LargeAddressAware
+-config=VMProperty:-Djet.gc.heaplimit:0 -Djet.stack.trace
+-config=ClassPath:*{exe.dir}\Test.jar;K:\NetBean Java Projects\Test\resources
+-config=JETProfile:8040
+-config=JETProfileName:1.8.0_40-1
+-config=RuntimeKind:DESKTOP
+-EmbeddedFileSys=K:/NetBean Java Projects/Test/POS_System_jetpdb/POS_System.efs
+-config=MainClass:POS/POS_System
+-config=StandaloneResources:K:\NetBean Java Projects\Test\resources
+-config=VersionInfo:jet-1100-release (eval, en)
+-config=CompatibilityString:Java SE version: 1.8.0_40; JET update level: 0; CPU architecture: amd64
+-name=dist\POS_System.exe
+K:\NetBean Java Projects\Test\POS_System_jetpdb\version.res
+
+-entry=ExeEntryPoint
+
+-LinkFileAsRData=LINK_SplashPicture:K:\Jar To Exe\lib\x86\dummysplash.lib
+K:\Jar To Exe\lib\x86\startup-exe-normal.zip
+-GenExceptionInfo=JR_SystemExceptionHandler
+-config=PackagingOptions:component_microversions=BC-0
+K:\NetBean Java Projects\Test\POS_System_jetpdb\obj.zip
+-Config=RTComponent:XKRN11008040.dll
+K:\Jar To Exe\lib\x86\startup-rtlink.zip
+K:\Jar To Exe\lib\x86\import32.lib
+dist\resources\POS_Icon.ico
+K:\Jar To Exe\lib\x86\app.res
+-StrictLinkToDLL
+
+
